@@ -1,0 +1,23 @@
+# create new conda environment
+
+name: heatmap
+
+channels:
+- conda-forge
+- bioconda
+- defaults
+
+dependencies:
+- python=3.9
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scipy
+- scikit-learn
+- jupyter
+- ipykernel
+- jupyterlab-geojson
+- nb_conda_kernels
+
+
